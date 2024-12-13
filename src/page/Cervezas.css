@@ -1,0 +1,33 @@
+.contaiCerveza {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Espacio entre los elementos */
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(124, 64, 246, 0.962);
+    min-height: 100vh;
+    height: auto;
+    padding-top: 50px;
+  }
+  
+  .cerveza-item {
+    margin-top: 20px;
+     margin-bottom: 16px; /* Añade espacio entre cada fila */
+     justify-items: center;
+  }
+
+  .cerveza-info,
+  .cerveza-item img {
+    width: 60%;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .cerveza-info {
+    margin-top: -7px;
+  }
+  
+  

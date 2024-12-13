@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+.container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(124, 64, 246, 0.962);
+    height: auto;
+    padding-top: 50px;
+}
+
+.magia{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+
+.magia img{
+    flex: 1; /* Esto hará que las imágenes ocupen el mismo espacio de manera flexible */
+    width: 100%; /* Las imágenes ocuparán el ancho completo del contenedor */
+    height: 200px; /* Altura fija para dispositivos móviles */
+    object-fit: cover; /* Recorta la imagen manteniendo las proporciones */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.descuentos button{
+    font-family: 'Lobster', sans-serif; /* Cambié la fuente a Lobster */
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    border-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.descuentos button:hover{
+    cursor: pointer;
+}
+
+.descuentos{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .magia img {
+        object-fit:inherit;
+      height: 400px; /* Aumentamos la altura para pantallas más grandes */
+    }
+  }
