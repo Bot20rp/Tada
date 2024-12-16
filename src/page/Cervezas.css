@@ -8,26 +8,32 @@
     background-color: rgba(124, 64, 246, 0.962);
     min-height: 100vh;
     height: auto;
-    padding-top: 50px;
+    padding-top: 60px;
   }
   
   .cerveza-item {
-    margin-top: 20px;
-     margin-bottom: 16px; /* Añade espacio entre cada fila */
      justify-items: center;
+     height: auto;
   }
 
-  .cerveza-info,
-  .cerveza-item img {
-    width: 60%;
+ 
+  .cerveza-info2 img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: 150px;
     background-color: aliceblue;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .cerveza-info{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
   }
 
-  .cerveza-info {
-    margin-top: -7px;
+  .cerveza-info2{
+    width: 50%;
+    height: 150px;
+    background-color: aliceblue;
   }
   
   

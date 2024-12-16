@@ -14,7 +14,9 @@ const Cervezas = () => {
     <div className="contaiCerveza">
       {cervezas.map((cerveza) => (
         <div key={cerveza.id} className="cerveza-item">
-          <img src={cerveza.src} alt={cerveza.alt} />
+          <div className="cerveza-info2">
+            <img src={cerveza.src} alt={cerveza.alt} />
+          </div>
           <div className="cerveza-info">
             <p className="cerveza-descripcion">{cerveza.descripcion}</p>
             <p className="cerveza-precio">{cerveza.precio}</p>
