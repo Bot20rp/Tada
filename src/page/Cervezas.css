@@ -5,7 +5,7 @@
     gap: 16px; /* Espacio entre los elementos */
     flex-direction: column;
     text-align: center;
-    background-color: rgba(124, 64, 246, 0.962);
+    background-color: rgba(242, 0, 255, 0.962);
     min-height: 100vh;
     height: auto;
     padding-top: 60px;
